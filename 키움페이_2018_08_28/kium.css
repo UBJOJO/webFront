@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	background-color: #07182a;
+	padding: 20px 50px;
+	transition: .4s;
+}
+
+nav.change {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	background-color: #ffffff;
+	padding: 20px 50px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	text-transform: none;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 16px;
+	transition: .4s;
+}
+
+nav.change ul li a {
+	text-decoration: none;
+	text-transform: none;
+	color: #07182a;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-top: 3px;
+	padding-right: 70px;
+	border-right: 2px solid #ee5cad;
+	height: 20px;
+}
+
+nav ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: space-around;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav .logo {
+	margin-right: 120px;
+	width: 120px;
+	height: 25px;
+	float: left;
+	text-decoration: none;
+	text-transform: none;
+	background-size: cover;
+	background-position: center;
+	content:url("https://www.kiwoompay.co.kr/img/logo_off.png");
+}	
+
+nav.change .logo {
+	margin-right: 120px;
+	width: 120px;
+	height: 25px;
+	float: left;
+	text-decoration: none;
+	text-transform: none;
+	background-size: cover;
+	background-position: center;
+	content:url("https://www.kiwoompay.co.kr/img/logo_on.png");
+}	
+
+nav .supervisor {
+	text-decoration: none;
+	text-transform: none;
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+	border: 2px solid white;
+	padding: 5px 10px;
+}
+
+nav.change .supervisor {
+	text-decoration: none;
+	text-transform: none;
+	color: #07182a;
+	font-weight: 600;
+	font-size: 16px;
+	border: 2px solid white;
+	padding: 5px 10px;
+}
+
+section.sec1 {
+	width: 100%;
+	height: 100vh;
+	background-color: #07182a;
+	
+}
+section.sec2 {
+	width: 100%;
+	height: 100vh;
+	background-color: yellow;
+}
